@@ -1,14 +1,34 @@
+.bg-primary{
+  background-color: #2C190B !important;
+}
+
+.bg-light{
+  background-color: #fff8dc !important;
+}
+
+.content{
+  min-height: calc(100vh - 37px);
+  background-image: url(bg/spikes.png);
+  background-blend-mode:multiply;
+}
+
 header {
-		background-image: url(https://i.postimg.cc/XNcYd0yv/6r-F1z2p-Imgur.jpg);
-		background-size: cover;
+  background-image: url(https://i.postimg.cc/XNcYd0yv/6r-F1z2p-Imgur.jpg);
+  background-size: cover;
+}
+
+.card{
+  box-shadow: 0px 2px 18px 5px goldenrod;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
 }
 
 h1 {
-		font-family: Champignon;
-}
-
-.navbar {
-    background-color: #2C190B;
+  font-family: Champignon;
 }
 
 .navbar-brand{
@@ -17,14 +37,21 @@ h1 {
 }
 
 .nav-link:hover{
-  color: #ecc032 !important;
+  color: goldenrod !important;
 }
+
 footer {
-    font-size: 14px;
+  font-size: 14px;
+  height: 37px;
 }
 
 .text-secondary{
-		color: #ecc032 !important;
+		color: goldenrod !important;
+}
+
+.gradient {
+    height: 6px;
+    background-image: linear-gradient(#2C190B, goldenrod, #2C190B);
 }
 
 @font-face{
