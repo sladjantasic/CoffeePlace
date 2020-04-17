@@ -1,0 +1,24 @@
+header {
+		background-image: url(https://i.postimg.cc/XNcYd0yv/6r-F1z2p-Imgur.jpg);
+		background-size: cover;
+		
+}
+h1 {
+		font-family: Champignon;
+}
+.navbar {
+    background-color: #2C190B;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.text-secondary{
+		color: #ecc032 !important;
+}
+
+@font-face{
+		font-family: Champignon;		
+		src: url(font/champignon.regular.otf)
+}
