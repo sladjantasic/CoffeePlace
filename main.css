@@ -68,19 +68,29 @@ footer {
 }
 
 .text-secondary{
-		color: goldenrod !important;
+  color: goldenrod !important;
 }
 
 .border-secondary{
-		border-color: goldenrod !important;
+  border-color: goldenrod !important;
+}
+
+.btn-outline-secondary{
+  color: black;
+  border-color: goldenrod;
+}
+
+.btn-outline-secondary:hover{
+  border-color: goldenrod;
+  background-color: goldenrod;
 }
 
 .gradient {
-    height: 6px;
-    background-image: linear-gradient(#2C190B, goldenrod, #2C190B);
+  height: 6px;
+  background-image: linear-gradient(#2C190B, goldenrod, #2C190B);
 }
 
 @font-face{
-		font-family: Champignon;		
-		src: url(font/champignon.regular.otf)
+  font-family: Champignon;		
+  src: url(font/champignon.regular.otf)
 }
